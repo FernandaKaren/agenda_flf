@@ -5,11 +5,11 @@ public class Contato {
 	private String nome;
 	private String tel;
 	
-	Contato(){
+	public Contato(){
 		
 	}
 	
-	Contato(String nome, String tel){
+	public Contato(String nome, String tel){
 		this.nome = nome;
 		this.tel = tel;
 	}
